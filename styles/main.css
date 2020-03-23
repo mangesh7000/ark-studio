@@ -22,7 +22,7 @@ body {
    
   }
   
-  #nav li {
+  li {
     float: right;
     padding-top:14px ;
   }
@@ -45,9 +45,6 @@ body {
     opacity: 0.7;
     color: white;
     height: 60px;
-    position: absolute;
-    overflow: hidden;
-    width: 100%;
  }
 #cta_text{
   display: inline;
@@ -67,14 +64,14 @@ body {
 h3{
   text-align: center;
 } 
-.services ul {
+ul {
   display: flex;
   margin-left: 70px;
-  padding-top: 100px;
+  padding-top: 80px;
   align-content: center;
 }
 
-.services li {
+li {
   flex: 33.33%;
   padding: 5px;
   text-align: center;
@@ -162,18 +159,12 @@ h3{
 }
 .footer_widget  li{
   list-style-type:none;
- 
-  margin-right: 20px;
- display: block;
+  float: left;
 }
-
 .rights{
   text-align: center;
 }
-.f{  
+.f{
   background-color:black;
   color:white;
-}
-#comp_list{
-  color: white;
 }
